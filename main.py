@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# I'm groot!
+# I am groot!
 # Lots (most) of this code is from hardmath123.github.io/socket-science-2.html
 
 import socket
@@ -64,5 +64,5 @@ def got_message(message):
         print "Joining..."
     elif words[1] == 'PRIVMSG' and words[2] == CHANNEL and ('groot' in message.replace("groot-bot","").lower()) and connected:
         # Someone probably said `!joke`.
-        s.sendall("PRIVMSG %s :"%(CHANNEL) + "I'm groot!" + "\r\n")
+        s.sendall("PRIVMSG %s :"%(CHANNEL) + "I am groot!" + "\r\n")
 read_loop(got_message)
