@@ -46,7 +46,7 @@ def read_loop(callback):
 print "Registering..."
 
 s.sendall("NICK %s\r\n"%(NICK))
-s.sendall("USER %s * * :A joke bot\r\n"%(NICK))
+s.sendall("USER %s * * :A groot bot\r\n"%(NICK))
 
 
 connected = False
