@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# A simple Python bot to tell jokes.
-# For hardmath123.github.io/socket-science-2.html
+# I'm groot!
+# Lots (most) of this code is from hardmath123.github.io/socket-science-2.html
 
 import socket
 import select
